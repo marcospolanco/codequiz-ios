@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4483391D96388600241945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4483381D96388600241945 /* AppDelegate.swift */; };
+		EF44833B1D96388600241945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44833A1D96388600241945 /* ViewController.swift */; };
+		EF44833E1D96388600241945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF44833C1D96388600241945 /* Main.storyboard */; };
+		EF4483401D96388600241945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF44833F1D96388600241945 /* Assets.xcassets */; };
+		EF4483431D96388600241945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4483411D96388600241945 /* LaunchScreen.storyboard */; };
+		EF44834E1D96388600241945 /* codequizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44834D1D96388600241945 /* codequizTests.swift */; };
+		EF4483591D96388600241945 /* codequizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4483581D96388600241945 /* codequizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF44834A1D96388600241945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF44832D1D96388600241945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4483341D96388600241945;
+			remoteInfo = codequiz;
+		};
+		EF4483551D96388600241945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF44832D1D96388600241945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4483341D96388600241945;
+			remoteInfo = codequiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4483351D96388600241945 /* codequiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codequiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4483381D96388600241945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF44833A1D96388600241945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF44833D1D96388600241945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF44833F1D96388600241945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4483421D96388600241945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4483441D96388600241945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4483491D96388600241945 /* codequizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codequizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF44834D1D96388600241945 /* codequizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codequizTests.swift; sourceTree = "<group>"; };
+		EF44834F1D96388600241945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4483541D96388600241945 /* codequizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codequizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4483581D96388600241945 /* codequizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codequizUITests.swift; sourceTree = "<group>"; };
+		EF44835A1D96388600241945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4483321D96388600241945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483461D96388600241945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483511D96388600241945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF44832C1D96388500241945 = {
+			isa = PBXGroup;
+			children = (
+				EF4483371D96388600241945 /* codequiz */,
+				EF44834C1D96388600241945 /* codequizTests */,
+				EF4483571D96388600241945 /* codequizUITests */,
+				EF4483361D96388600241945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4483361D96388600241945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4483351D96388600241945 /* codequiz.app */,
+				EF4483491D96388600241945 /* codequizTests.xctest */,
+				EF4483541D96388600241945 /* codequizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4483371D96388600241945 /* codequiz */ = {
+			isa = PBXGroup;
+			children = (
+				EF4483381D96388600241945 /* AppDelegate.swift */,
+				EF44833A1D96388600241945 /* ViewController.swift */,
+				EF44833C1D96388600241945 /* Main.storyboard */,
+				EF44833F1D96388600241945 /* Assets.xcassets */,
+				EF4483411D96388600241945 /* LaunchScreen.storyboard */,
+				EF4483441D96388600241945 /* Info.plist */,
+			);
+			path = codequiz;
+			sourceTree = "<group>";
+		};
+		EF44834C1D96388600241945 /* codequizTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF44834D1D96388600241945 /* codequizTests.swift */,
+				EF44834F1D96388600241945 /* Info.plist */,
+			);
+			path = codequizTests;
+			sourceTree = "<group>";
+		};
+		EF4483571D96388600241945 /* codequizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4483581D96388600241945 /* codequizUITests.swift */,
+				EF44835A1D96388600241945 /* Info.plist */,
+			);
+			path = codequizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4483341D96388600241945 /* codequiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF44835D1D96388600241945 /* Build configuration list for PBXNativeTarget "codequiz" */;
+			buildPhases = (
+				EF4483311D96388600241945 /* Sources */,
+				EF4483321D96388600241945 /* Frameworks */,
+				EF4483331D96388600241945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codequiz;
+			productName = codequiz;
+			productReference = EF4483351D96388600241945 /* codequiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4483481D96388600241945 /* codequizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4483601D96388600241945 /* Build configuration list for PBXNativeTarget "codequizTests" */;
+			buildPhases = (
+				EF4483451D96388600241945 /* Sources */,
+				EF4483461D96388600241945 /* Frameworks */,
+				EF4483471D96388600241945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF44834B1D96388600241945 /* PBXTargetDependency */,
+			);
+			name = codequizTests;
+			productName = codequizTests;
+			productReference = EF4483491D96388600241945 /* codequizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4483531D96388600241945 /* codequizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4483631D96388600241945 /* Build configuration list for PBXNativeTarget "codequizUITests" */;
+			buildPhases = (
+				EF4483501D96388600241945 /* Sources */,
+				EF4483511D96388600241945 /* Frameworks */,
+				EF4483521D96388600241945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4483561D96388600241945 /* PBXTargetDependency */,
+			);
+			name = codequizUITests;
+			productName = codequizUITests;
+			productReference = EF4483541D96388600241945 /* codequizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF44832D1D96388600241945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.visorlabs.com;
+				TargetAttributes = {
+					EF4483341D96388600241945 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF4483481D96388600241945 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF4483341D96388600241945;
+					};
+					EF4483531D96388600241945 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF4483341D96388600241945;
+					};
+				};
+			};
+			buildConfigurationList = EF4483301D96388600241945 /* Build configuration list for PBXProject "codequiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF44832C1D96388500241945;
+			productRefGroup = EF4483361D96388600241945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4483341D96388600241945 /* codequiz */,
+				EF4483481D96388600241945 /* codequizTests */,
+				EF4483531D96388600241945 /* codequizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4483331D96388600241945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4483431D96388600241945 /* LaunchScreen.storyboard in Resources */,
+				EF4483401D96388600241945 /* Assets.xcassets in Resources */,
+				EF44833E1D96388600241945 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483471D96388600241945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483521D96388600241945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4483311D96388600241945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF44833B1D96388600241945 /* ViewController.swift in Sources */,
+				EF4483391D96388600241945 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483451D96388600241945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF44834E1D96388600241945 /* codequizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4483501D96388600241945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4483591D96388600241945 /* codequizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF44834B1D96388600241945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4483341D96388600241945 /* codequiz */;
+			targetProxy = EF44834A1D96388600241945 /* PBXContainerItemProxy */;
+		};
+		EF4483561D96388600241945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4483341D96388600241945 /* codequiz */;
+			targetProxy = EF4483551D96388600241945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF44833C1D96388600241945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF44833D1D96388600241945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4483411D96388600241945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4483421D96388600241945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF44835B1D96388600241945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF44835C1D96388600241945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF44835E1D96388600241945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = codequiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF44835F1D96388600241945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = codequiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4483611D96388600241945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = codequizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codequiz.app/codequiz";
+			};
+			name = Debug;
+		};
+		EF4483621D96388600241945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = codequizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codequiz.app/codequiz";
+			};
+			name = Release;
+		};
+		EF4483641D96388600241945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = codequizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = codequiz;
+			};
+			name = Debug;
+		};
+		EF4483651D96388600241945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = codequizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = codequiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4483301D96388600241945 /* Build configuration list for PBXProject "codequiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF44835B1D96388600241945 /* Debug */,
+				EF44835C1D96388600241945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF44835D1D96388600241945 /* Build configuration list for PBXNativeTarget "codequiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF44835E1D96388600241945 /* Debug */,
+				EF44835F1D96388600241945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4483601D96388600241945 /* Build configuration list for PBXNativeTarget "codequizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4483611D96388600241945 /* Debug */,
+				EF4483621D96388600241945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4483631D96388600241945 /* Build configuration list for PBXNativeTarget "codequizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4483641D96388600241945 /* Debug */,
+				EF4483651D96388600241945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF44832D1D96388600241945 /* Project object */;
+}
