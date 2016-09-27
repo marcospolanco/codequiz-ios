@@ -11,12 +11,14 @@ import Foundation
 struct Database: JSONABLE {
     static var sharedInstance = Database()
     
-    private init(){}
+    private init(){data()}
 
     let user = User(username: "", password: "")
     var challenges = [Challenge]()
     
     mutating func data() {
+        self.challenges = [Challenge]()
+        
         challenges.append(Challenge(question: "What is the difference between let and var", responses: [
             Response(response: "let variables are limited to the local scope", explanation: "", correct: false),
             Response(response: "let varibables are constants.", explanation: "", correct: true)
@@ -67,9 +69,14 @@ extension JSONABLE {
 //    }
 //}
 
-struct User {
+class User {
     let username: String
     let password: String
+    
+    init(username:String, password:String) {
+        self.username = username
+        self.password = password
+    }
 }
 
 extension User: JSONABLE {
@@ -79,19 +86,32 @@ extension User: JSONABLE {
 
 }
 
-struct Challenge : JSONABLE {
+class Challenge : JSONABLE {
     let question: String
     let responses: [Response]
+    
+    var answer: Response?
+    
+    init(question: String, responses:[Response]) {
+        self.question = question
+        self.responses = responses
+    }
     
     func json() -> [String:Any] {
         return ["question":question, "responses":self.responses.map{$0.json()}]
     }
 }
 
-struct Response: JSONABLE {
+class Response: JSONABLE {
     let response: String
     let explanation: String
     let correct: Bool
+    
+    init(response: String, explanation:String, correct:Bool) {
+        self.response = response
+        self.explanation = explanation
+        self.correct = correct
+    }
     
     func json() -> [String:Any] {
         return ["response":response, "explanation":explanation, "correct":correct]

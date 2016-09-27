@@ -29,6 +29,11 @@
 		EF95006E1D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
 		EF95006F1D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
 		EF9500701D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
+		EF9500721D99FFFA0023F143 /* TestTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500711D99FFFA0023F143 /* TestTableController.swift */; };
+		EF9500731D99FFFA0023F143 /* TestTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500711D99FFFA0023F143 /* TestTableController.swift */; };
+		EF9500741D99FFFA0023F143 /* TestTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500711D99FFFA0023F143 /* TestTableController.swift */; };
+		EF9500751D9A03540023F143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44833A1D96388600241945 /* ViewController.swift */; };
+		EF9500761D9A035D0023F143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44833A1D96388600241945 /* ViewController.swift */; };
 		EFD418701D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
 		EFD418711D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
 		EFD418721D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
@@ -76,6 +81,7 @@
 		EF9500651D99DFD00023F143 /* database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = database.json; sourceTree = "<group>"; };
 		EF9500691D99EEEE0023F143 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		EF95006D1D99FD690023F143 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		EF9500711D99FFFA0023F143 /* TestTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableController.swift; sourceTree = "<group>"; };
 		EFD4186F1D9901F400EEFEE3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		FCEBFD703D1803E087FD5367 /* Pods_codequizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codequizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD62E9AAE78B96C8772B3205 /* Pods-codequizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-codequizUITests/Pods-codequizUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +169,7 @@
 				EF0220BB1D963FD700CCA799 /* Markdown.swift */,
 				EF44833C1D96388600241945 /* Main.storyboard */,
 				EF95006D1D99FD690023F143 /* Test.storyboard */,
+				EF9500711D99FFFA0023F143 /* TestTableController.swift */,
 				EFD4186F1D9901F400EEFEE3 /* Models.swift */,
 				EF9500651D99DFD00023F143 /* database.json */,
 				EF44833F1D96388600241945 /* Assets.xcassets */,
@@ -475,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9500721D99FFFA0023F143 /* TestTableController.swift in Sources */,
 				EF95006A1D99EEEE0023F143 /* System.swift in Sources */,
 				EF44833B1D96388600241945 /* ViewController.swift in Sources */,
 				EF0220BC1D963FD700CCA799 /* Markdown.swift in Sources */,
@@ -487,10 +495,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9500751D9A03540023F143 /* ViewController.swift in Sources */,
 				EF95006B1D99EEEE0023F143 /* System.swift in Sources */,
 				EFD418711D9901F400EEFEE3 /* Models.swift in Sources */,
 				EF0220BD1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF44834E1D96388600241945 /* codequizTests.swift in Sources */,
+				EF9500731D99FFFA0023F143 /* TestTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,10 +508,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9500761D9A035D0023F143 /* ViewController.swift in Sources */,
 				EF95006C1D99EEEE0023F143 /* System.swift in Sources */,
 				EFD418721D9901F400EEFEE3 /* Models.swift in Sources */,
 				EF0220BE1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF4483591D96388600241945 /* codequizUITests.swift in Sources */,
+				EF9500741D99FFFA0023F143 /* TestTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
