@@ -3,23 +3,21 @@
 //  codequiz
 //
 //  Created by Marcos Polanco on 9/24/16.
-//  Copyright © 2016 com.visorlabs.com. All rights reserved.
+//  Copyright © 2016 Visor Labs. All rights reserved.
 //
 
 import UIKit
+import SwiftyMarkdown
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var input: UITextView!
+    @IBOutlet weak var output: UITextView!
+    @IBOutlet weak var webView: UIWebView!
+    
+    @IBAction func process(sender: AnyObject) {
+        output.attributedText = SwiftyMarkdown(string: input.text).attributedString()
+        
+        var m = Markdown()
+        webView.loadHTMLString(m.transform(input.text), baseURL: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

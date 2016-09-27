@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kvs-x7-irO">
+            <objects>
+                <viewController id="MVe-Hs-vVa" customClass="ViewController" customModule="codequiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b7j-s3-gCH"/>
+                        <viewControllerLayoutGuide type="bottom" id="VcP-4l-jIP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bjA-GI-3wT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H5m-BS-4QJ" userLabel="INput">
+                                <rect key="frame" x="20" y="28" width="560" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="H5m-BS-4QJ" secondAttribute="height" multiplier="70:33" id="wyu-o9-pAB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bMu-IP-38B">
+                                <rect key="frame" x="20" y="316" width="560" height="264"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyv-kb-1Lp">
+                                <rect key="frame" x="20" y="294" width="560" height="20"/>
+                                <state key="normal" title="process"/>
+                                <connections>
+                                    <action selector="process:" destination="MVe-Hs-vVa" eventType="touchUpInside" id="hgf-vr-4y4"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yD8-AP-3pK">
+                                <rect key="frame" x="20" y="316" width="560" height="264"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H5m-BS-4QJ" firstAttribute="trailing" secondItem="bjA-GI-3wT" secondAttribute="trailingMargin" id="4Cs-OW-440"/>
+                            <constraint firstItem="yD8-AP-3pK" firstAttribute="trailing" secondItem="bjA-GI-3wT" secondAttribute="trailingMargin" id="CUi-j5-Z6Y"/>
+                            <constraint firstItem="yD8-AP-3pK" firstAttribute="leading" secondItem="bjA-GI-3wT" secondAttribute="leadingMargin" id="Cff-jj-T1s"/>
+                            <constraint firstItem="H5m-BS-4QJ" firstAttribute="leading" secondItem="bjA-GI-3wT" secondAttribute="leadingMargin" id="VYr-U1-EPo"/>
+                            <constraint firstItem="bMu-IP-38B" firstAttribute="leading" secondItem="bjA-GI-3wT" secondAttribute="leadingMargin" id="WfD-Bq-lyj"/>
+                            <constraint firstItem="jyv-kb-1Lp" firstAttribute="leading" secondItem="bjA-GI-3wT" secondAttribute="leadingMargin" id="X4Z-dD-xmQ"/>
+                            <constraint firstItem="VcP-4l-jIP" firstAttribute="top" secondItem="yD8-AP-3pK" secondAttribute="bottom" constant="20" id="a84-Ya-sSe"/>
+                            <constraint firstItem="jyv-kb-1Lp" firstAttribute="trailing" secondItem="bjA-GI-3wT" secondAttribute="trailingMargin" id="b2N-ZA-OaN"/>
+                            <constraint firstItem="bMu-IP-38B" firstAttribute="height" secondItem="H5m-BS-4QJ" secondAttribute="height" id="bDJ-zw-W5e"/>
+                            <constraint firstItem="yD8-AP-3pK" firstAttribute="top" secondItem="jyv-kb-1Lp" secondAttribute="bottom" constant="2" id="ctG-fE-Aus"/>
+                            <constraint firstItem="bMu-IP-38B" firstAttribute="top" secondItem="jyv-kb-1Lp" secondAttribute="bottom" constant="2" id="dUH-Y4-kfW"/>
+                            <constraint firstItem="VcP-4l-jIP" firstAttribute="top" secondItem="bMu-IP-38B" secondAttribute="bottom" constant="20" id="e5h-dj-ObD"/>
+                            <constraint firstItem="H5m-BS-4QJ" firstAttribute="top" secondItem="b7j-s3-gCH" secondAttribute="bottom" constant="8" id="fwl-ax-Gnp"/>
+                            <constraint firstItem="bMu-IP-38B" firstAttribute="trailing" secondItem="bjA-GI-3wT" secondAttribute="trailingMargin" id="gDc-X5-f8z"/>
+                            <constraint firstItem="jyv-kb-1Lp" firstAttribute="top" secondItem="H5m-BS-4QJ" secondAttribute="bottom" constant="2" id="oml-mB-80j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="input" destination="H5m-BS-4QJ" id="7UA-S6-dex"/>
+                        <outlet property="output" destination="bMu-IP-38B" id="maO-3n-8cO"/>
+                        <outlet property="webView" destination="yD8-AP-3pK" id="hfG-EN-MCV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O2U-EX-4Qh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611" y="283"/>
+        </scene>
+    </scenes>
+</document>

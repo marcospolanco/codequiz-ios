@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA78C57E9D01DD9E78E5BCF /* Pods_codequiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD3E1BCA210344FE0C1A97E /* Pods_codequiz.framework */; };
+		9E9EAB4048D35E284D99C8CA /* Pods_codequizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80A07BA2D02A36A260D4C8C /* Pods_codequizUITests.framework */; };
+		B3A9B03C366BFE7C2219987E /* Pods_codequizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEBFD703D1803E087FD5367 /* Pods_codequizTests.framework */; };
+		EF0220BC1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
+		EF0220BD1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
+		EF0220BE1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
 		EF4483391D96388600241945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4483381D96388600241945 /* AppDelegate.swift */; };
 		EF44833B1D96388600241945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44833A1D96388600241945 /* ViewController.swift */; };
 		EF44833E1D96388600241945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF44833C1D96388600241945 /* Main.storyboard */; };
@@ -14,6 +20,18 @@
 		EF4483431D96388600241945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4483411D96388600241945 /* LaunchScreen.storyboard */; };
 		EF44834E1D96388600241945 /* codequizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44834D1D96388600241945 /* codequizTests.swift */; };
 		EF4483591D96388600241945 /* codequizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4483581D96388600241945 /* codequizUITests.swift */; };
+		EF9500661D99DFD00023F143 /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = EF9500651D99DFD00023F143 /* database.json */; };
+		EF9500671D99DFD00023F143 /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = EF9500651D99DFD00023F143 /* database.json */; };
+		EF9500681D99DFD00023F143 /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = EF9500651D99DFD00023F143 /* database.json */; };
+		EF95006A1D99EEEE0023F143 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500691D99EEEE0023F143 /* System.swift */; };
+		EF95006B1D99EEEE0023F143 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500691D99EEEE0023F143 /* System.swift */; };
+		EF95006C1D99EEEE0023F143 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9500691D99EEEE0023F143 /* System.swift */; };
+		EF95006E1D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
+		EF95006F1D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
+		EF9500701D99FD690023F143 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF95006D1D99FD690023F143 /* Test.storyboard */; };
+		EFD418701D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
+		EFD418711D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
+		EFD418721D9901F400EEFEE3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186F1D9901F400EEFEE3 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0179B742D1D918D595ED9C01 /* Pods-codequiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codequiz/Pods-codequiz.debug.xcconfig"; sourceTree = "<group>"; };
+		914A7E800AB0AA4B32DE5A36 /* Pods-codequiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-codequiz/Pods-codequiz.release.xcconfig"; sourceTree = "<group>"; };
+		9FD3E1BCA210344FE0C1A97E /* Pods_codequiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codequiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6371F003287F8B85C903138 /* Pods-codequizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codequizUITests/Pods-codequizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B70C5A102F1E737E0DB1357E /* Pods-codequizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-codequizTests/Pods-codequizTests.release.xcconfig"; sourceTree = "<group>"; };
+		D80A07BA2D02A36A260D4C8C /* Pods_codequizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codequizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAE2993FC6070783E8AD036 /* Pods-codequizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codequizTests/Pods-codequizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0220BB1D963FD700CCA799 /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
 		EF4483351D96388600241945 /* codequiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codequiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4483381D96388600241945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF44833A1D96388600241945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,12 @@
 		EF4483541D96388600241945 /* codequizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codequizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4483581D96388600241945 /* codequizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codequizUITests.swift; sourceTree = "<group>"; };
 		EF44835A1D96388600241945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9500651D99DFD00023F143 /* database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = database.json; sourceTree = "<group>"; };
+		EF9500691D99EEEE0023F143 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		EF95006D1D99FD690023F143 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		EFD4186F1D9901F400EEFEE3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FCEBFD703D1803E087FD5367 /* Pods_codequizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codequizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD62E9AAE78B96C8772B3205 /* Pods-codequizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-codequizUITests/Pods-codequizUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA78C57E9D01DD9E78E5BCF /* Pods_codequiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A9B03C366BFE7C2219987E /* Pods_codequizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9EAB4048D35E284D99C8CA /* Pods_codequizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8131F5B6F2D5A6E8389E479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0179B742D1D918D595ED9C01 /* Pods-codequiz.debug.xcconfig */,
+				914A7E800AB0AA4B32DE5A36 /* Pods-codequiz.release.xcconfig */,
+				DAAE2993FC6070783E8AD036 /* Pods-codequizTests.debug.xcconfig */,
+				B70C5A102F1E737E0DB1357E /* Pods-codequizTests.release.xcconfig */,
+				A6371F003287F8B85C903138 /* Pods-codequizUITests.debug.xcconfig */,
+				FD62E9AAE78B96C8772B3205 /* Pods-codequizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7B31060EB173E384611D561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD3E1BCA210344FE0C1A97E /* Pods_codequiz.framework */,
+				FCEBFD703D1803E087FD5367 /* Pods_codequizTests.framework */,
+				D80A07BA2D02A36A260D4C8C /* Pods_codequizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF44832C1D96388500241945 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +139,8 @@
 				EF44834C1D96388600241945 /* codequizTests */,
 				EF4483571D96388600241945 /* codequizUITests */,
 				EF4483361D96388600241945 /* Products */,
+				B8131F5B6F2D5A6E8389E479 /* Pods */,
+				C7B31060EB173E384611D561 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +158,13 @@
 			isa = PBXGroup;
 			children = (
 				EF4483381D96388600241945 /* AppDelegate.swift */,
+				EF9500691D99EEEE0023F143 /* System.swift */,
 				EF44833A1D96388600241945 /* ViewController.swift */,
+				EF0220BB1D963FD700CCA799 /* Markdown.swift */,
 				EF44833C1D96388600241945 /* Main.storyboard */,
+				EF95006D1D99FD690023F143 /* Test.storyboard */,
+				EFD4186F1D9901F400EEFEE3 /* Models.swift */,
+				EF9500651D99DFD00023F143 /* database.json */,
 				EF44833F1D96388600241945 /* Assets.xcassets */,
 				EF4483411D96388600241945 /* LaunchScreen.storyboard */,
 				EF4483441D96388600241945 /* Info.plist */,
@@ -132,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF44835D1D96388600241945 /* Build configuration list for PBXNativeTarget "codequiz" */;
 			buildPhases = (
+				2195057F9426657A760B0990 /* [CP] Check Pods Manifest.lock */,
 				EF4483311D96388600241945 /* Sources */,
 				EF4483321D96388600241945 /* Frameworks */,
 				EF4483331D96388600241945 /* Resources */,
+				7C3132459A6C421420836C79 /* [CP] Embed Pods Frameworks */,
+				1B1FF061C9AFD1782CA2EC2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF4483601D96388600241945 /* Build configuration list for PBXNativeTarget "codequizTests" */;
 			buildPhases = (
+				FC274CEAD9DFD499E822D9B9 /* [CP] Check Pods Manifest.lock */,
 				EF4483451D96388600241945 /* Sources */,
 				EF4483461D96388600241945 /* Frameworks */,
 				EF4483471D96388600241945 /* Resources */,
+				8C4E50A85783566D353767AD /* [CP] Embed Pods Frameworks */,
+				4F86E2E5A949595E5ADEBFD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF4483631D96388600241945 /* Build configuration list for PBXNativeTarget "codequizUITests" */;
 			buildPhases = (
+				EA9136121F410F796728F4E0 /* [CP] Check Pods Manifest.lock */,
 				EF4483501D96388600241945 /* Sources */,
 				EF4483511D96388600241945 /* Frameworks */,
 				EF4483521D96388600241945 /* Resources */,
+				CE29B8429D1238E4A60D6336 /* [CP] Embed Pods Frameworks */,
+				F53CA48A03818227748E9B3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,10 +263,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = com.visorlabs.com;
+				ORGANIZATIONNAME = "Visor Labs";
 				TargetAttributes = {
 					EF4483341D96388600241945 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y57L54HDUX;
 					};
 					EF4483481D96388600241945 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,7 +306,9 @@
 			files = (
 				EF4483431D96388600241945 /* LaunchScreen.storyboard in Resources */,
 				EF4483401D96388600241945 /* Assets.xcassets in Resources */,
+				EF9500661D99DFD00023F143 /* database.json in Resources */,
 				EF44833E1D96388600241945 /* Main.storyboard in Resources */,
+				EF95006E1D99FD690023F143 /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +316,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95006F1D99FD690023F143 /* Test.storyboard in Resources */,
+				EF9500671D99DFD00023F143 /* database.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +325,161 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9500701D99FD690023F143 /* Test.storyboard in Resources */,
+				EF9500681D99DFD00023F143 /* database.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1FF061C9AFD1782CA2EC2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequiz/Pods-codequiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2195057F9426657A760B0990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F86E2E5A949595E5ADEBFD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequizTests/Pods-codequizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3132459A6C421420836C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequiz/Pods-codequiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4E50A85783566D353767AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequizTests/Pods-codequizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE29B8429D1238E4A60D6336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequizUITests/Pods-codequizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9136121F410F796728F4E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F53CA48A03818227748E9B3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codequizUITests/Pods-codequizUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC274CEAD9DFD499E822D9B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF4483311D96388600241945 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95006A1D99EEEE0023F143 /* System.swift in Sources */,
 				EF44833B1D96388600241945 /* ViewController.swift in Sources */,
+				EF0220BC1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF4483391D96388600241945 /* AppDelegate.swift in Sources */,
+				EFD418701D9901F400EEFEE3 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +487,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95006B1D99EEEE0023F143 /* System.swift in Sources */,
+				EFD418711D9901F400EEFEE3 /* Models.swift in Sources */,
+				EF0220BD1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF44834E1D96388600241945 /* codequizTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +498,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF95006C1D99EEEE0023F143 /* System.swift in Sources */,
+				EFD418721D9901F400EEFEE3 /* Models.swift in Sources */,
+				EF0220BE1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF4483591D96388600241945 /* codequizUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,28 +627,33 @@
 		};
 		EF44835E1D96388600241945 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0179B742D1D918D595ED9C01 /* Pods-codequiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = codequiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visorlabs.codequiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		EF44835F1D96388600241945 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914A7E800AB0AA4B32DE5A36 /* Pods-codequiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = codequiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Visor-Labs.codequiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.visorlabs.codequiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		EF4483611D96388600241945 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAE2993FC6070783E8AD036 /* Pods-codequizTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = codequizTests/Info.plist;
@@ -433,6 +666,7 @@
 		};
 		EF4483621D96388600241945 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70C5A102F1E737E0DB1357E /* Pods-codequizTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = codequizTests/Info.plist;
@@ -445,6 +679,7 @@
 		};
 		EF4483641D96388600241945 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6371F003287F8B85C903138 /* Pods-codequizUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = codequizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +691,7 @@
 		};
 		EF4483651D96388600241945 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD62E9AAE78B96C8772B3205 /* Pods-codequizUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = codequizUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +720,7 @@
 				EF44835F1D96388600241945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4483601D96388600241945 /* Build configuration list for PBXNativeTarget "codequizTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +729,7 @@
 				EF4483621D96388600241945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4483631D96388600241945 /* Build configuration list for PBXNativeTarget "codequizUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +738,7 @@
 				EF4483651D96388600241945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
