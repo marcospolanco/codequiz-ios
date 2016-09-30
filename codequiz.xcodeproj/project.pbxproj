@@ -13,6 +13,12 @@
 		EF0220BC1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
 		EF0220BD1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
 		EF0220BE1D963FD700CCA799 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0220BB1D963FD700CCA799 /* Markdown.swift */; };
+		EF19DF0F1D9B92A8008AF334 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF19DF0E1D9B92A8008AF334 /* GoogleService-Info.plist */; };
+		EF19DF101D9B92A8008AF334 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF19DF0E1D9B92A8008AF334 /* GoogleService-Info.plist */; };
+		EF19DF111D9B92A8008AF334 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF19DF0E1D9B92A8008AF334 /* GoogleService-Info.plist */; };
+		EF19DF131D9B968C008AF334 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19DF121D9B968C008AF334 /* LoginController.swift */; };
+		EF19DF141D9B968C008AF334 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19DF121D9B968C008AF334 /* LoginController.swift */; };
+		EF19DF151D9B968C008AF334 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19DF121D9B968C008AF334 /* LoginController.swift */; };
 		EF4483391D96388600241945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4483381D96388600241945 /* AppDelegate.swift */; };
 		EF44833B1D96388600241945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44833A1D96388600241945 /* ViewController.swift */; };
 		EF44833E1D96388600241945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF44833C1D96388600241945 /* Main.storyboard */; };
@@ -65,6 +71,8 @@
 		D80A07BA2D02A36A260D4C8C /* Pods_codequizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codequizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAE2993FC6070783E8AD036 /* Pods-codequizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codequizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codequizTests/Pods-codequizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF0220BB1D963FD700CCA799 /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
+		EF19DF0E1D9B92A8008AF334 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF19DF121D9B968C008AF334 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EF4483351D96388600241945 /* codequiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codequiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4483381D96388600241945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF44833A1D96388600241945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +176,7 @@
 				EF44833A1D96388600241945 /* ViewController.swift */,
 				EF0220BB1D963FD700CCA799 /* Markdown.swift */,
 				EF44833C1D96388600241945 /* Main.storyboard */,
+				EF19DF121D9B968C008AF334 /* LoginController.swift */,
 				EF95006D1D99FD690023F143 /* Test.storyboard */,
 				EF9500711D99FFFA0023F143 /* TestTableController.swift */,
 				EFD4186F1D9901F400EEFEE3 /* Models.swift */,
@@ -175,6 +184,7 @@
 				EF44833F1D96388600241945 /* Assets.xcassets */,
 				EF4483411D96388600241945 /* LaunchScreen.storyboard */,
 				EF4483441D96388600241945 /* Info.plist */,
+				EF19DF0E1D9B92A8008AF334 /* GoogleService-Info.plist */,
 			);
 			path = codequiz;
 			sourceTree = "<group>";
@@ -316,6 +326,7 @@
 				EF9500661D99DFD00023F143 /* database.json in Resources */,
 				EF44833E1D96388600241945 /* Main.storyboard in Resources */,
 				EF95006E1D99FD690023F143 /* Test.storyboard in Resources */,
+				EF19DF0F1D9B92A8008AF334 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +336,7 @@
 			files = (
 				EF95006F1D99FD690023F143 /* Test.storyboard in Resources */,
 				EF9500671D99DFD00023F143 /* database.json in Resources */,
+				EF19DF101D9B92A8008AF334 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +346,7 @@
 			files = (
 				EF9500701D99FD690023F143 /* Test.storyboard in Resources */,
 				EF9500681D99DFD00023F143 /* database.json in Resources */,
+				EF19DF111D9B92A8008AF334 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +501,7 @@
 				EF0220BC1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF4483391D96388600241945 /* AppDelegate.swift in Sources */,
 				EFD418701D9901F400EEFEE3 /* Models.swift in Sources */,
+				EF19DF131D9B968C008AF334 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +515,7 @@
 				EF0220BD1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF44834E1D96388600241945 /* codequizTests.swift in Sources */,
 				EF9500731D99FFFA0023F143 /* TestTableController.swift in Sources */,
+				EF19DF141D9B968C008AF334 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +529,7 @@
 				EF0220BE1D963FD700CCA799 /* Markdown.swift in Sources */,
 				EF4483591D96388600241945 /* codequizUITests.swift in Sources */,
 				EF9500741D99FFFA0023F143 /* TestTableController.swift in Sources */,
+				EF19DF151D9B968C008AF334 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

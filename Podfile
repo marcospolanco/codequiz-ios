@@ -7,7 +7,8 @@ target 'codequiz' do
 
   # Pods for codequiz
 pod 'SwiftyMarkdown'
-
+pod 'FirebaseAuth'
+pod 'Firebase'
 
   target 'codequizTests' do
     inherit! :search_paths

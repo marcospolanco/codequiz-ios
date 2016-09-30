@@ -8,6 +8,33 @@
 
 import UIKit
 import SwiftyMarkdown
+import Firebase
+
+class AppFlow {
+    static let appFlow = AppFlow()
+    private init(){}
+ 
+    var user: FIRUser? {
+        didSet {
+            self.userDidChange()
+        }
+    }
+    
+    
+    func userDidChange() {
+        print(#function)
+    }
+    
+    func start() {
+        print(#function)
+    }
+}
+
+//The segue identifiers in the application.
+enum Segues: String {
+    case toMain = "toMain"
+}
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var input: UITextView!
