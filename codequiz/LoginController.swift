@@ -8,12 +8,42 @@
 
 import UIKit
 import Firebase
-
+import FBSDKLoginKit
 
 class LoginController: UIViewController {
     @IBOutlet weak var username: RoundedTextField!
     @IBOutlet weak var password: RoundedTextField!
     @IBOutlet weak var loginBut: RoundedButton!
+    @IBOutlet weak var fbLogin: FBSDKLoginButton!
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.fbLogin.readPermissions = ["email","public_profile"]
+        
+        if FBSDKAccessToken.currentAccessToken() != nil {
+            
+            //get the credential.
+            let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
+            FIRAuth.auth()?.signInWithCredential(credential, completion: {user, error in
+                guard let user = user where error == nil else {
+                    return print("signInWithCredential: \(error)")
+                }
+                
+                //set the current user
+                Database.sharedInstance.user = user
+                
+                Threads.onMain{
+                    //self.performSegueWithIdentifier(UI.Segue.login.rawValue, sender: self)
+                }
+                
+            })
+            
+        }
+        
+        //if the user is coming back from facebook login, get out of here
+        
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

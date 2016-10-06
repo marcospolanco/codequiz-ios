@@ -107,24 +107,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="KD3-NW-zzj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="codename" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dTH-zz-66J" userLabel="Email" customClass="RoundedTextField" customModule="codequiz" customModuleProvider="target">
-                                <rect key="frame" x="20" y="334" width="374" height="68"/>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="email address" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dTH-zz-66J" userLabel="Email" customClass="RoundedTextField" customModule="codequiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="382" width="374" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dTH-zz-66J" secondAttribute="height" multiplier="11:2" id="Jyj-ue-ZEJ"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="alert"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="yu6-RF-fwg" userLabel="Password" customClass="RoundedTextField" customModule="codequiz" customModuleProvider="target">
-                                <rect key="frame" x="20" y="410" width="374" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="yu6-RF-fwg" secondAttribute="height" multiplier="11:2" id="GKj-KO-VIF"/>
-                                    <constraint firstAttribute="width" secondItem="yu6-RF-fwg" secondAttribute="height" multiplier="11:2" id="zQB-ix-qWu"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bca-U1-LXf" userLabel="Spacer">
                                 <rect key="frame" x="20" y="660" width="374" height="68"/>
@@ -166,17 +156,32 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9i2-UC-cxL" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="20" y="306" width="374" height="68"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="yu6-RF-fwg" userLabel="Password" customClass="RoundedTextField" customModule="codequiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="458" width="374" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yu6-RF-fwg" secondAttribute="height" multiplier="11:2" id="GKj-KO-VIF"/>
+                                    <constraint firstAttribute="width" secondItem="yu6-RF-fwg" secondAttribute="height" multiplier="11:2" id="zQB-ix-qWu"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" keyboardAppearance="alert" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="1bA-6P-qb6"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="width" secondItem="Bca-U1-LXf" secondAttribute="height" multiplier="11:2" id="2nd-uG-lNK"/>
+                            <constraint firstItem="dTH-zz-66J" firstAttribute="top" secondItem="9i2-UC-cxL" secondAttribute="bottom" constant="8" id="60B-We-eWK"/>
                             <constraint firstAttribute="trailing" secondItem="KD3-NW-zzj" secondAttribute="trailing" id="75a-Ac-yUI"/>
                             <constraint firstItem="KD3-NW-zzj" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leading" id="9Cz-SB-Pld"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="top" secondItem="zeW-RQ-5vF" secondAttribute="bottom" constant="8" id="BXp-7z-8eM"/>
                             <constraint firstItem="zeW-RQ-5vF" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="DsE-L1-lTY"/>
                             <constraint firstItem="WCp-qF-e9f" firstAttribute="top" secondItem="Bca-U1-LXf" secondAttribute="bottom" constant="8" id="EPm-nz-3hJ"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="FBv-hj-FPB"/>
+                            <constraint firstItem="9i2-UC-cxL" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="FID-ja-MWh"/>
                             <constraint firstItem="Wr3-HU-0QO" firstAttribute="top" secondItem="qNg-ER-rPT" secondAttribute="bottom" constant="8" id="GVd-YD-B2N"/>
                             <constraint firstItem="Wr3-HU-0QO" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="Hbd-ym-ZuP"/>
                             <constraint firstItem="zeW-RQ-5vF" firstAttribute="height" secondItem="yu6-RF-fwg" secondAttribute="height" id="IPE-iF-isU"/>
@@ -184,6 +189,7 @@
                             <constraint firstItem="dTH-zz-66J" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="JYw-cK-y6e"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="width" secondItem="Bca-U1-LXf" secondAttribute="height" multiplier="11:2" id="KEu-rX-N4F"/>
                             <constraint firstItem="Wr3-HU-0QO" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="Kcb-57-WNv"/>
+                            <constraint firstItem="9i2-UC-cxL" firstAttribute="top" secondItem="Wr3-HU-0QO" secondAttribute="bottom" constant="8" id="LlT-o8-fVk"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="Mj4-Og-oIV"/>
                             <constraint firstItem="dTH-zz-66J" firstAttribute="centerY" secondItem="D7q-Xv-jwp" secondAttribute="centerY" id="MzN-JF-o44"/>
                             <constraint firstItem="KD3-NW-zzj" firstAttribute="top" secondItem="D7q-Xv-jwp" secondAttribute="top" id="N1D-tb-gwY"/>
@@ -191,12 +197,14 @@
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="RfU-sb-JIJ"/>
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="height" secondItem="dTH-zz-66J" secondAttribute="height" id="VKs-Nh-OEX"/>
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="aUC-bu-D7A"/>
+                            <constraint firstItem="9i2-UC-cxL" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="bD6-UB-YxY"/>
                             <constraint firstItem="qNg-ER-rPT" firstAttribute="centerX" secondItem="D7q-Xv-jwp" secondAttribute="centerX" id="cVR-XY-tFk"/>
                             <constraint firstItem="dTH-zz-66J" firstAttribute="height" secondItem="Wr3-HU-0QO" secondAttribute="height" id="ftl-6m-F8s"/>
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="hFc-6D-kHc"/>
                             <constraint firstItem="Bca-U1-LXf" firstAttribute="width" secondItem="Bca-U1-LXf" secondAttribute="height" multiplier="11:2" id="lhK-m9-X3N"/>
                             <constraint firstItem="WCp-qF-e9f" firstAttribute="top" secondItem="KD3-NW-zzj" secondAttribute="bottom" id="lyf-Qj-d4w"/>
                             <constraint firstItem="dTH-zz-66J" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="m3k-Nu-pjy"/>
+                            <constraint firstItem="dTH-zz-66J" firstAttribute="height" secondItem="9i2-UC-cxL" secondAttribute="height" id="nhL-7t-UgB"/>
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="width" secondItem="yu6-RF-fwg" secondAttribute="height" multiplier="11:2" id="q1h-zc-Dda"/>
                             <constraint firstItem="yu6-RF-fwg" firstAttribute="trailing" secondItem="D7q-Xv-jwp" secondAttribute="trailingMargin" id="qOo-Oi-ZHW"/>
                             <constraint firstItem="zeW-RQ-5vF" firstAttribute="leading" secondItem="D7q-Xv-jwp" secondAttribute="leadingMargin" id="rl8-Sb-IuS"/>
@@ -205,9 +213,16 @@
                             <constraint firstItem="qNg-ER-rPT" firstAttribute="width" secondItem="D7q-Xv-jwp" secondAttribute="width" multiplier="150:414" id="uwy-QV-Lni"/>
                             <constraint firstItem="dTH-zz-66J" firstAttribute="centerX" secondItem="D7q-Xv-jwp" secondAttribute="centerX" id="wTl-iO-JdY"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="MzN-JF-o44"/>
+                                <exclude reference="wTl-iO-JdY"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="lax-Ya-Amk"/>
                     <connections>
+                        <outlet property="fbLogin" destination="9i2-UC-cxL" id="KtX-aC-RMU"/>
                         <outlet property="loginBut" destination="zeW-RQ-5vF" id="lst-Ln-UNL"/>
                         <outlet property="password" destination="yu6-RF-fwg" id="4Nn-Qv-dB5"/>
                         <outlet property="username" destination="dTH-zz-66J" id="GWB-SL-c03"/>

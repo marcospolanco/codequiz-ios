@@ -7,13 +7,15 @@
 //
 
 import Foundation
+import Firebase
 
 struct Database: JSONABLE {
     static var sharedInstance = Database()
     
     private init(){data()}
 
-    let user = User(username: "", password: "")
+    var user: FIRUser?
+    
     var challenges = [Challenge]()
     
     mutating func data() {
